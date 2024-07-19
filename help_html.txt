@@ -1,0 +1,171 @@
+- strong  : in đậm
+- em :  in nghiêng
+- br : xuống dòng 
+- hr : đường ngăn cách 
+- sup : mũ 
+- sub : mũ dưới
+- p : văn bản
+- q : để trong ngoặc kép
+- abbr : hiện lên chú thích 1 đoạn chữ nào đó 
+- blockquote : 
+             + cite : trích dẫn 
+- del : gạch ngang chữ 
+- ins : gạch chân 
+
+
+
+list : 
+- <ol</ol>
+- <ul</ul>
+
+- <dl>
+    <dt>__</dt>
+    <dd>__</dd>
+</dl>
+- start , type , reversed
+
+
+
+link : 
+- a href = "link"  
+- a href = "mailto : email " 
+
+
+
+images 
+- img  :
+ màu sắc nhiều nên dùng jpeg 
+
+    - src : url của hình ảnh 
+    - alt : chứa văn bản thay thế 
+    - title : tên của ảnh .
+    - width , height  
+    - align = "left , right , top ,middle , bottom " : căn trái phải giữa trên dưới 
+    - loading ="lazy"
+    - decoding = "async"
+
+- figure :
+    - figcaption : ghi chú hình ảnh đó 
+
+
+video : 
+    <source> : 
+        - src = "fsdf.mp4" 
+        - type = "mp4"
+
+
+audio :
+        - control
+    <source> : 
+        - src = "sdfdfe.mp3" 
+        - type = "audio/mp3"
+
+<form>
+
+
+table 
+- boder : đường nền 
+- bgcolor : màu nền
+- width 
+    <tr> : tạo ra dòng 
+    <td> : tạo ra 1 ô 
+        - colspan = "2,3,4,5..." (kéo dài cột)
+        - rowspan = "2,3,4,5..." (kéo dài dòng) 
+    <th> : tiêu đề của bảng  (table heading)
+        - scope :
+            + col : cột 
+            + row : dòng
+
+    <thead> : phần đầu
+    <tbody> : phần thân 
+    <tfoot> : phần chân
+
+
+
+
+<select> : 
+        - multiple size = "3" : chọn nhiều lựa chọn  (cụ thể là 3)
+
+
+        chọn option : chọn từng độ tuổi 
+            <option value = "18" > 18 </option> 
+            <option value = "19" > 19 </option> 
+            <option value = "20" selected > 20 </option> 
+                    selected : luôn chọn 1 option
+
+
+        
+<textarea> : chỉnh được kích thước nhập văn bản
+        - cols 
+        - rows
+
+
+<label> : 
+        - for = "trùng với id "
+
+    VD : <label  for = "nam"> nam</label>
+         <input type = "checkbox" id = "nam" name = "gioi tinh" checked> 
+        <label  for = "nu"> nu </label>
+         <input type = "checkbox" id = "nu" name = "gioi tinh" > 
+
+<fielset> : bọc lại thành khung 
+    <legend> so thich </legend>
+        .......
+        ........
+        .........
+</fielset>
+
+<input> : 
+        - placeholder :  một gợi ý ngắn mô tả giá trị dự kiến của trường đầu vào
+        - name  
+        - id 
+        - min 
+        - max
+        - minlenght
+        - maxlenght
+        - step
+        - required  : bắt buộc phải nhập
+        
+<input type="button">
+<input type="checkbox"> nhập vào dữ liệu dạng 
+<input type="color"> 
+<input type="date">
+<input type="datetime-local">
+<input type="email"> nhập vào dữ liệu dạng email
+<input type="file">  nhập vào dữ liệu dạng  file
+<input type="hidden">
+<input type="image"> gửi dữ liệu đi bằng cách nhấp vào ảnh
+<input type="month">
+<input type="number">  :nhập vào dữ liệu dạng số 
+<input type="password"> :nhập vào dữ liệu dạng password
+<input type="radio">
+        - checked : luôn chọn 1 cái 
+<input type="range">
+<input type="reset">  : xóa hết dữ liệu bạn đang nhập ở trên 
+<input type="search"> 
+<input type="submit"> : gửi dữ liệu đi 
+<input type="tel">  : nhập vào dữ liệu dạng số điện thoại
+<input type="text"> : nhập vào dữ liệu dạng text
+<input type="time"> : nhập vào dữ liệu dạng thời gian 
+<input type="url">  : nhập vào dữ liệu dạng đường link 
+<input type="week"> 
+
+<form/>
+
+
+
+
+div : 
+    nhóm các thành phần thành 1 khối 
+
+
+span: 
+    nhóm các thành phần thành 1 dòng
+
+
+iframe : 
+        nhúng 1 phần của 1 trang web khác vào trang web của chúng ta 
+
+
+meta : mô tả  thông tin về trang web
+
