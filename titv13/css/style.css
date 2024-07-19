@@ -1,0 +1,42 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Courier, monospace;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: aquamarine;
+}
+
+p {
+    color: pink;
+}
+
+p {
+    color: green !important;
+}
+
+p {
+    color: violet;
+}
+
+ul>li {
+    color: aqua !important;
+}
+
+ul>li {
+    color: blueviolet;
+}
+
+p em {
+    color: yellow
+}
+
+p#hi {
+    font-family: monospace;
+    color: brown !important;
+}
+
+.noidung{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: crimson !important;
+}
