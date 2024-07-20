@@ -1,0 +1,77 @@
+opacity , rgpa  :  làm mờ 
+font-family 
+@fone-face : 
+px to em
+
+
+font-weigh:
+    normal : ko im đậm
+    bold  : in đậm
+font-style:
+    normal: ko nghiêng
+    italic: nghiêng hơn   
+    oblique: nghiêng 
+
+text - transform
+    uppercase : viết hoa
+    lowercase : viết thường
+    capitalize : chữ cái đầu tiên mỗi từ sẽ viết hoa 
+
+
+text-decoration : 
+    none : ko có trang trí nào được ấp dụng cho văn bản 
+    underline : gạch chân dưới văn bản 
+    overline : gạch trên cùng văn bản
+    line-through : gạch ngang văn bản
+    underline-overline : gạch chân và gạch trên cùng
+    underline-line through : gạch chân gạch ngang 
+
+line-heigh : chỉnh độ cao của văn bản
+
+letter-spacing : xác định khoảng cách giữa các kí tự 
+
+word-spacing  :  xác định khoảng cách giữa các từ trong văn bản
+
+vertical-align : căn chỉnh chiều dọc của 1 phần tử hoặc nội dung bên trong phần tử 
+
+align : căn trái phải trên dưới 
+
+text-indent : căn lề đầu dòng của 1 văn bản trong 1 phần tử 
+
+text-shadow : trục ngang     trục đứng     độ mờ     màu sắc bóng đổ
+
+
+- pseudo-class : 
+
+  vd : 
+    p:first-letter {  
+        font-weigh: bold;  in đậm chữ cái đầu tiên 
+        font-size : 100px; 
+        text-transform : uppercase;    viết hoa chữ cái đầu tiên 
+       
+    }     
+
+    p:first-line {
+        font-size : 100px;
+        color : blue  ;      // thay màu blue cho dòng đầu tiên 
+        text-transform : lowercase;    // chuyển thành chữ thường cho dòng đầu tiên 
+    }         
+    a:link{
+        color:deeppink;
+        định dạng liên kết chưa đưuọc truy cập , tức là liên kết chưa từng được nhấp chuột vào 
+    }
+    a:visited{
+        color:black;
+        định dạng liên kết đã được truy cập , tức là liên kết đã từng được nhấp chuột vào 
+    }
+    a:hover{
+        color:blue;
+       được kích hoạt khi con trỏ chuột đi vào phần tử 
+
+    }
+    
+    
+    a:active{
+        color:yellow;
+        khi đang trong trạng trái nhấn hoặc truy cập bằng bất kỳ phương thức nào
+    }

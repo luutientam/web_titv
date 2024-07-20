@@ -1,0 +1,63 @@
+body {
+    background-color: azure;
+
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 50px;
+    color: #0099ff;
+    text-shadow: 2px 2px 3px #666666;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 27px;
+
+    font-weight: normal;
+    color: #33adff;
+}
+
+
+p.intro {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: #c68c53;
+    line-height: 1.4em;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: #c68c53;
+    line-height: 1.4em;
+
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 30px;
+    color: #0099ff;
+    /* text-shadow: 2px 2px 3px #666666; */
+}
+
+
+p.credits:first-letter {
+    text-transform: uppercase;
+
+}
+
+a {
+    text-decoration: underline;
+    color:#c68c53 ; 
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    color: blue;
+}
