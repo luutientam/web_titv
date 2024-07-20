@@ -41,6 +41,7 @@ text-indent : căn lề đầu dòng của 1 văn bản trong 1 phần tử
 text-shadow : trục ngang     trục đứng     độ mờ     màu sắc bóng đổ
 
 
+
 - pseudo-class : 
 
   vd : 
@@ -69,9 +70,11 @@ text-shadow : trục ngang     trục đứng     độ mờ     màu sắc bón
        được kích hoạt khi con trỏ chuột đi vào phần tử 
 
     }
-    
-    
     a:active{
         color:yellow;
         khi đang trong trạng trái nhấn hoặc truy cập bằng bất kỳ phương thức nào
     }
+
+
+overflow :
+        visible
