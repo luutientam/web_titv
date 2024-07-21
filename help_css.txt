@@ -48,7 +48,7 @@ text-shadow : trục ngang     trục đứng     độ mờ     màu sắc bón
     p:first-letter {  
         font-weigh: bold;  in đậm chữ cái đầu tiên 
         font-size : 100px; 
-        text-transform : uppercase;    viết hoa chữ cái đầu tiên 
+        text-transform : uppercase;  viết hoa chữ cái đầu tiên 
        
     }     
 
@@ -56,20 +56,24 @@ text-shadow : trục ngang     trục đứng     độ mờ     màu sắc bón
         font-size : 100px;
         color : blue  ;      // thay màu blue cho dòng đầu tiên 
         text-transform : lowercase;    // chuyển thành chữ thường cho dòng đầu tiên 
-    }         
+    }  
+
     a:link{
         color:deeppink;
         định dạng liên kết chưa đưuọc truy cập , tức là liên kết chưa từng được nhấp chuột vào 
     }
+
     a:visited{
         color:black;
         định dạng liên kết đã được truy cập , tức là liên kết đã từng được nhấp chuột vào 
     }
+
     a:hover{
         color:blue;
        được kích hoạt khi con trỏ chuột đi vào phần tử 
 
     }
+
     a:active{
         color:yellow;
         khi đang trong trạng trái nhấn hoặc truy cập bằng bất kỳ phương thức nào
