@@ -9,6 +9,8 @@ h1 {
     font-size: 50px;
     color: #0099ff;
     text-shadow: 2px 2px 3px #666666;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    
 }
 
 h2 {
@@ -17,6 +19,7 @@ h2 {
 
     font-weight: normal;
     color: #33adff;
+    
 }
 
 
@@ -32,10 +35,11 @@ p {
     font-size: 14px;
     color: #c68c53;
     line-height: 1.4em;
-
+    
 }
 
 h3 {
+    
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 30px;
@@ -56,6 +60,7 @@ a {
 
 a:hover {
     text-decoration: none;
+    
 }
 
 a:active {
