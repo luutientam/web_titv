@@ -23,7 +23,7 @@ h2 {
 }
 
 
-p.intro {
+p.intro  {
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
     color: #c68c53;
@@ -48,7 +48,7 @@ h3 {
 }
 
 
-p.credits:first-letter {
+p.credis:first-letter {
     text-transform: uppercase;
 
 }
